@@ -1,0 +1,16 @@
+export const categories = [
+  { name: "Asesoramiento", logo: "/service-1.svg" },
+  { name: "Belleza", logo: "/service-2.svg" },
+  { name: "Apoyo Escolar", logo: "/service-3.svg" },
+  { name: "Cursos", logo: "/service-4.svg" },
+  { name: "Eventos", logo: "/service-5.svg" },
+  { name: "Comunicación", logo: "/service-6.svg" },
+  { name: "Hogar", logo: "/service-7.svg" },
+  { name: "Turismo", logo: "/service-8.svg" },
+  { name: "Salud", logo: "/service-9.svg" },
+  { name: "Moda", logo: "/service-10.svg" },
+  { name: "Mascotas", logo: "/service-1.svg" },
+  { name: "Transporte", logo: "/service-2.svg" },
+  { name: "Tecnología", logo: "/service-3.svg" },
+  { name: "Virtual", logo: "/service-4.svg" },
+];
