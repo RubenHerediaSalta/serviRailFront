@@ -10,7 +10,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "serviRail2",
+        hostname: "servirail2-production.up.railway.app",
         port: "3000",
       },
     ],
