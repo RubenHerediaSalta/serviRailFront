@@ -33,7 +33,7 @@ function Index() {
     <>
       <h2 className="text-3xl text-center font-bold">Bienvenido</h2>
       <h4 className="text-xl text-center">
-        {userInfo.fullName}
+        {userInfo?.fullName}
       </h4>
       {userInfo && (
         <div className="flex flex-col md:flex-row  justify-center gap-5 min-h-[80vh] my-10 mt-0 px-5 md:px-10">
@@ -60,7 +60,7 @@ function Index() {
                 <span className="text-[#62646a] text-lg font-medium">
                   {userInfo.username}
                 </span>
-                <span className="font-bold text-md">{userInfo.fullName}</span>
+                <span className="font-bold text-md">{userInfo?.fullName}</span>
               </div>
             </div>
             <div className="border-t py-5">
